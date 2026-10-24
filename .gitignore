@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.DS_Store
+artifacts/
+**/build/
+**/DerivedData/
+**/xcuserdata/
+*.xcuserstate
+*.xcresult/
+backend/.wrangler/
+backend/coverage/
+backend/.dev.vars
+.env
+.env.*
+!.env.example
+.swiftpm/

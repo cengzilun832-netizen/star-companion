@@ -1,0 +1,184 @@
+{
+  "appPolicies" : {
+    "eula" : "",
+    "policies" : [
+      {
+        "locale" : "en_US",
+        "policyText" : "",
+        "policyURL" : ""
+      }
+    ]
+  },
+  "identifier" : "5D3D09CA-4439-4D50-A8B0-4EF9C87B40A8",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+    {
+      "displayPrice" : "290",
+      "familyShareable" : false,
+      "internalID" : "F6D4F9C8-90E9-4CB8-A9EE-C81C2B5B33F4",
+      "localizations" : [
+        {
+          "description" : "一次解鎖目前以及之後加入的所有小星造型。",
+          "displayName" : "全部造型・永久解鎖",
+          "locale" : "zh_Hant"
+        },
+        {
+          "description" : "지금 있는 모습과 앞으로 추가될 모든 작은 별 모습을 한 번에 잠금 해제하세요.",
+          "displayName" : "모든 모습・영구 잠금 해제",
+          "locale" : "ko"
+        },
+        {
+          "description" : "Unlock every Little Star look, including new looks added later.",
+          "displayName" : "All Looks Forever",
+          "locale" : "en_US"
+        }
+      ],
+      "productID" : "com.example.StarCompanion.looks.all",
+      "referenceName" : "All Star Looks",
+      "type" : "NonConsumable"
+    }
+  ],
+  "settings" : {
+    "_askToBuyEnabled" : false,
+    "_billingGracePeriodEnabled" : false,
+    "_billingIssuesEnabled" : false,
+    "_disableDialogs" : false,
+    "_failTransactionsEnabled" : false,
+    "_locale" : "zh_Hant",
+    "_renewalBillingIssuesEnabled" : false,
+    "_storefront" : "TWN",
+    "_storeKitErrors" : [
+
+    ],
+    "_timeRate" : 0
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "0329D23A-B7E0-45DA-A05F-8E25D13DA9D4",
+      "localizations" : [
+        {
+          "description" : "解鎖不限次數的塔羅與每日指引",
+          "displayName" : "星光會員",
+          "locale" : "zh_Hant"
+        },
+        {
+          "description" : "타로와 오늘의 메시지를 무제한으로 이용하세요",
+          "displayName" : "별빛 멤버십",
+          "locale" : "ko"
+        },
+        {
+          "description" : "Unlock unlimited tarot and daily guidance",
+          "displayName" : "Starlight Membership",
+          "locale" : "en_US"
+        }
+      ],
+      "name" : "Starlight Membership",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "billingPlans" : [
+            {
+              "billingPlanType" : "BILLED_UPFRONT",
+              "commitmentDisplayPrice" : "60",
+              "displayPrice" : "60",
+              "internalID" : "3BA04A61",
+              "isEnabled" : true
+            }
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "60",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "C314E235-26F7-4B9F-864F-48282D507BFC",
+          "introductoryOffers" : [
+
+          ],
+          "localizations" : [
+            {
+              "description" : "塔羅與今日指引不限次數使用。",
+              "displayName" : "星光會員・月繳",
+              "locale" : "zh_Hant"
+            },
+            {
+              "description" : "타로와 오늘의 메시지를 무제한으로 이용하세요.",
+              "displayName" : "별빛 멤버십・월간",
+              "locale" : "ko"
+            },
+            {
+              "description" : "Unlimited tarot and daily guidance.",
+              "displayName" : "Starlight Monthly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.example.StarCompanion.starlight.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Starlight Monthly",
+          "subscriptionGroupID" : "0329D23A-B7E0-45DA-A05F-8E25D13DA9D4",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        },
+        {
+          "adHocOffers" : [
+
+          ],
+          "billingPlans" : [
+            {
+              "billingPlanType" : "BILLED_UPFRONT",
+              "commitmentDisplayPrice" : "590",
+              "displayPrice" : "590",
+              "internalID" : "5E16BCAE",
+              "isEnabled" : true
+            }
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "590",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "DE863301-2FE8-4F4A-8394-B8C318BB8122",
+          "introductoryOffers" : [
+
+          ],
+          "localizations" : [
+            {
+              "description" : "完整會員權益，年繳約省 18%。",
+              "displayName" : "星光會員・年繳",
+              "locale" : "zh_Hant"
+            },
+            {
+              "description" : "모든 멤버십 혜택을 연간 결제로 약 18% 저렴하게 이용하세요.",
+              "displayName" : "별빛 멤버십・연간",
+              "locale" : "ko"
+            },
+            {
+              "description" : "All membership benefits with about 18% yearly savings.",
+              "displayName" : "Starlight Yearly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.example.StarCompanion.starlight.yearly",
+          "recurringSubscriptionPeriod" : "P1Y",
+          "referenceName" : "Starlight Yearly",
+          "subscriptionGroupID" : "0329D23A-B7E0-45DA-A05F-8E25D13DA9D4",
+          "type" : "RecurringSubscription",
+          "winbackOffers" : [
+
+          ]
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 5,
+    "minor" : 0
+  }
+}

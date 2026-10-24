@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StarCompanionAccountAPIBaseURL</key>
+	<string>$(STAR_COMPANION_API_BASE_URL)</string>
+	<key>StarCompanionAPIBaseURL</key>
+	<string>$(STAR_COMPANION_API_BASE_URL)</string>
+	<key>StarCompanionPhoneOTPEnabled</key>
+	<string>$(STAR_COMPANION_PHONE_OTP_ENABLED)</string>
+	<key>StarlightMonthlyProductID</key>
+	<string>$(STARLIGHT_MONTHLY_PRODUCT_ID)</string>
+	<key>StarlightYearlyProductID</key>
+	<string>$(STARLIGHT_YEARLY_PRODUCT_ID)</string>
+	<key>AllStarLooksProductID</key>
+	<string>$(ALL_STAR_LOOKS_PRODUCT_ID)</string>
+	<key>CFBundleLocalizations</key>
+    <array>
+        <string>en</string>
+        <string>zh-Hant</string>
+        <string>ko</string>
+    </array>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict>
+            <key>CFBundleTypeRole</key>
+            <string>Editor</string>
+            <key>CFBundleURLName</key>
+            <string>$(PRODUCT_BUNDLE_IDENTIFIER).deeplink</string>
+            <key>CFBundleURLSchemes</key>
+            <array>
+                <string>starcompanion</string>
+            </array>
+        </dict>
+    </array>
+</dict>
+</plist>
